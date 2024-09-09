@@ -27,7 +27,7 @@ const MyProvider = ({ children }) => {
         setLoading(false);
       }
     };
-
+ console.log(news)
     fetchNews();
   }, []);
   const id=1;

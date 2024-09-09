@@ -5,7 +5,7 @@ import { MyContext } from './context';
 export default function TechNews() {
   
   const { news, loading, error } = useContext(MyContext);
-  const filteredNews = news.filter(article => article.source.id && article.content.trim() !== null);
+  const filteredNews = news.filter(article => article.source.id && article.content !== null);
 
   if (loading) return <p className="text-center text-gray-500">Loading...</p>;
   if (error) return <p className="text-center text-red-500">Error: {error.message || 'An error occurred'}</p>;

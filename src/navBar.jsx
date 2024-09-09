@@ -14,7 +14,7 @@ return (
            </li>
            
            <li> 
-            <Link className='bold   text-orange-600 focus:text-blue-600' to ="/post/time">Post</Link>
+            <Link className='bold   text-orange-600 focus:text-blue-600' to ="/post/cnn">Post</Link>
 
             
             
